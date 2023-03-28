@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-left: 32%;
+  margin-bottom: 20px;
+}
+form {
+  border: 2px solid black;
+  width: 40%;
+  margin: 5% 30%;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: rgb(77, 62, 212);
+  color: white;
+}
